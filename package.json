@@ -1,6 +1,6 @@
 {
   "name": "raml-express",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "RAML utilities for building ExpressJS API servers",
   "main": "index.js",
   "scripts": {
