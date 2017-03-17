@@ -1,0 +1,3 @@
+--delay
+--recursive
+--compilers js:babel-register

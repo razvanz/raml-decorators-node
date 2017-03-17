@@ -2,9 +2,12 @@
   "name": "raml-express",
   "version": "0.0.1-0",
   "description": "RAML utilities for building ExpressJS API servers",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo 'no test'"
+    "start": "node build/index.js",
+    "build": "babel src --out-dir build",
+    "test": "mocha",
+    "lint": "eslint ."
   },
   "keywords": [
     "raml",
@@ -13,12 +16,24 @@
   ],
   "author": "Razvan Laurus <razvan.laurus@gmail.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/razvanz/raml-express.git"
-  },
+  "repository": "https://github.com/razvanz/raml-express.git",
   "bugs": {
     "url": "https://github.com/razvanz/raml-express/issues"
   },
-  "homepage": "https://github.com/razvanz/raml-express"
+  "homepage": "https://github.com/razvanz/raml-express",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-transform-async-to-generator": "^6.22.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "mocha": "^3.2.0"
+  }
 }
