@@ -1,0 +1,24 @@
+{
+  "name": "raml-express",
+  "version": "0.0.0",
+  "description": "RAML utilities for building ExpressJS API servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no test'"
+  },
+  "keywords": [
+    "raml",
+    "express",
+    "decorators"
+  ],
+  "author": "Razvan Laurus <razvan.laurus@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/razvanz/raml-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/razvanz/raml-express/issues"
+  },
+  "homepage": "https://github.com/razvanz/raml-express"
+}
